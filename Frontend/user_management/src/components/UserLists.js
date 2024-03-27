@@ -9,7 +9,7 @@ const UserLists = ({ users, onDelete, onUpdate }) => {
           <th>Name</th>
           <th>Email</th>
           <th>Date of Birth</th>
-          <th>Password</th> {/* Add this line */}
+          <th>Password</th>
           <th>Actions</th>
         </tr>
       </thead>
@@ -26,7 +26,7 @@ const UserLists = ({ users, onDelete, onUpdate }) => {
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>{user.dob}</td>
-              <td>{user.password}</td> {/* Add this line */}
+              <td>{user.password}</td>
               <td className="d-flex flex-row">
                 <Button
                   className="mx-2"

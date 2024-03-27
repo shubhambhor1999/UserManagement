@@ -1,4 +1,3 @@
-// AddUserForm.js
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
@@ -56,7 +55,6 @@ const AddUserForm = ({ onAdd, onCancel }) => {
       </Form.Group>
       <Form.Group controlId="formPassword">
         {" "}
-        {/* Add this form group */}
         <Form.Label>Password</Form.Label>
         <Form.Control
           type="password"

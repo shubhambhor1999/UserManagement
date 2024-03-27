@@ -58,7 +58,6 @@ const EditUserForm = ({ user, onUpdate, onCancel }) => {
       </Form.Group>
       <Form.Group controlId="formPassword">
         {" "}
-        {/* Add this form group */}
         <Form.Label>Password</Form.Label>
         <Form.Control
           type="password"
