@@ -56,11 +56,11 @@ The User Management System is a web application for managing user data. It allow
     npm start
     ```
 
-5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+5. Open your web browser and navigate to [http://localhost:3001](http://localhost:3001) to view the application.
 
 ### Configuration
 
-- The backend API endpoint is configured to run on port 8000 by default. You can change this in the `server.js` file.
+- The backend API endpoint is configured to run on port 3000 by default. You can change this in the `server.js` file.
 
 - Update the API URL in the frontend code (`services/UserServices.js`) if you change the backend server port or domain.
 
