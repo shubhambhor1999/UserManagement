@@ -63,6 +63,20 @@ The User Management System is a web application for managing user data. It allow
 - The backend API endpoint is configured to run on port 3000 by default. You can change this in the `server.js` file.
 
 - Update the API URL in the frontend code (`services/UserServices.js`) if you change the backend server port or domain.
+### Backend Environment Variables
+
+This project uses a `.env` file to manage environment-specific configuration. You should create a `.env` file in the root directory of the backend server with the following variables:
+
+- **DB_HOST**: The hostname or IP address of your database server. Example: `localhost`
+
+- **DB_NAME**: The name of the database to connect to. Example: `user_management`
+
+- **DB_USER**: The username used to authenticate with the database server. Example: `root`
+
+- **DB_PASS**: The password used to authenticate with the database server. Example: `root`
+
+Make sure to replace the example values with your actual database configuration. Do not expose sensitive information like passwords in your repository.
+
 
 ## Usage
 
