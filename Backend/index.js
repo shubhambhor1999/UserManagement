@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require("cors"); // Import the cors middleware
 const app = express();
 const userRoutes = require("./routes/userRoutes");
 const sequelize = require("./config/database");
 
 // Middleware
 app.use(express.json());
+app.use(cors());
 
 // Routes
 app.use("/api/users", userRoutes);
